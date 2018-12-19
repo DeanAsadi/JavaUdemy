@@ -7,7 +7,11 @@ public class Variables {
 		int // store integer numbers up to 32 bit
 		long // stores integer more than 32 bit
 		short  // Stores integers up to 32768 bit
+		double // Stores decimal variables
 		String //Stores string values
+		char // Stores single character 
+		boolean // Stores true or false values
+		
 		
 		
 	}
