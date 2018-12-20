@@ -15,7 +15,7 @@ public class Methods {
 		//------------------------------------------------------------------------------
 		MyUtils.addString(" A Sting from addString method, in MyUtils class");
 		// We can capture the return in a variable, (We can only do that we we return int method.
-		String myStr = MyUtils.addString(" A Sting from addString method, in MyUtils class");
+		String myStr = MyUtils.addString(" A Sting from addString method, in MyUtils class") + 10;
 		System.out.println(myStr);
 		//------------------------------------------------------------------------------
 
