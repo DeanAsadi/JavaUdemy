@@ -10,6 +10,16 @@ public class ArraysBasic {
 		
 		String[] words = new String[] { "This", "is", "test" };
 		System.out.println(words[2]);
+		
+		String[] newWord = new String[1]; // Will only store 2 slots
+		newWord[0] = "Hello";
+		newWord[1] = "World";
+		
+		 newWord = new String[4]; // Now we can change it to store 5 slots
+		// but it won't take up the 2 old values, old data is gone :(
+		 System.out.println(newWord);
+		
+		
 	}
 
 }
