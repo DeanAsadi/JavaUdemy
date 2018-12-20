@@ -8,6 +8,6 @@ public class Methods {
 	}
 	
 	public static void testMethod( String str ) {
-		System.out.println(" Printing a test, " + str);
+		System.out.println(" Printing a test,... " + str);
 	}
 }
