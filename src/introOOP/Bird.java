@@ -8,7 +8,7 @@ public class Bird extends Zoo {
 		super( name,  eat, sleep );
 	}
 	
-	public void birdy() {
+	public void fly() {
 		System.out.println( name + " is an animal that " + " his fave food is " + eat + " and he sleeps at " + sleep);
 
 	}

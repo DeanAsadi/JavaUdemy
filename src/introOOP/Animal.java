@@ -14,7 +14,7 @@ public class Animal {
 		//-------------------------------
 		Bird bird1 = new Bird( "Small bird " , "worms " , " night" );
 		
-		bird1.birdy();
+		bird1.fly();
 		
 		//-------------------------------
 		Fish fish1 = new Fish( "Small fish ", " fish food ", "'nope' never sleeps" );
