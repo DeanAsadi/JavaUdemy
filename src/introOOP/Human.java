@@ -7,6 +7,12 @@ public class Human {
 	int height;
 	String eyeColor;
 	
+	String name2;
+	int age2;
+	String food;
+	String walk;
+	
+	
 	public Human() {
 		
 	}
@@ -27,6 +33,12 @@ public class Human {
 	public void walk() {
 		System.out.println(" and take a walk in the morning :) ");
 
+	}
+	public void person() {
+		System.out.println( " I'd like to intreduce myself, my name is "  + name2  + " I am " + age2);
+	}
+	public void walking() {
+		System.out.println( "I like to walk " + walk + " a lot specialy after eating " + food );
 	}
 
 }

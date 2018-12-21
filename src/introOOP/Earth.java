@@ -13,6 +13,22 @@ public class Earth {
 		tom.eyeColor = "Brown";
 		
 		tom.speak();
+		tom.eat();
+		tom.walk();
+		
+		
+		
+		Human dean;
+		dean = new Human();
+		
+		dean.name2 = "Dean";
+		dean.age2 = 32;
+		dean.food = "Steak";
+		dean.walk = "Every day, in another word, I like to walk ";
+		
+		dean.person();
+		dean.walking();
+		
 	}
 
 }
