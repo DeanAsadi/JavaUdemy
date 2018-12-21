@@ -5,21 +5,22 @@ public class Animal {
 	public static void main(String[] args) {
 		
 		//-------------------------------
-		Zoo bat = new Zoo( "Bat", "dosen't run, ", "but it can fly", "blood", " at night." ) ;
-		Zoo tiger = new Zoo("Tiger", " dosen't fly, ", " but it can run", " meat", " in the morning.");
+		Zoo bat = new Zoo( "Bat", "blood", " at night." ) ;
+		Zoo tiger = new Zoo("Tiger"," meat", " in the morning.");
 		
 		bat.specs();
 		tiger.specs();
 		
 		//-------------------------------
-		Bird bird1 = new Bird( "Small bird ", "dosen't run ", " but it can fly high " , "worms " , " night" );
+		Bird bird1 = new Bird( "Small bird " , "worms " , " night" );
 		
 		bird1.birdy();
 		
 		//-------------------------------
-		Fish fish1 = new Fish( "Small fish ", "dosen't run ", " or fly, but it can swim ", " fish food ", "'nope' never sleeps" );
+		Fish fish1 = new Fish( "Small fish ", " fish food ", "'nope' never sleeps" );
 		
 		fish1.fishy();
+		fish1.specs(); // Fish can also access methods in Zoo class, because it extends from it
 		
 
 	}

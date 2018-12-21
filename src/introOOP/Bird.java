@@ -4,12 +4,12 @@ public class Bird extends Zoo {
 	
 	
 	
-	public Bird( String name, String run, String fly, String eat, String sleep ) {
-		super( name, run, fly, eat, sleep );
+	public Bird( String name, String eat, String sleep ) {
+		super( name,  eat, sleep );
 	}
 	
 	public void birdy() {
-		System.out.println( name + " is an animal that " + run + fly + " his fave food is " + eat + " and he sleeps at " + sleep);
+		System.out.println( name + " is an animal that " + " his fave food is " + eat + " and he sleeps at " + sleep);
 
 	}
 	
