@@ -45,7 +45,6 @@ public class Human {
 
 
 
-
 //This class will allow us to create object of type Human.
 // Classes, contain instruction for "how should the object behave in the application"
 //constructor : Provides a way to construct objects
