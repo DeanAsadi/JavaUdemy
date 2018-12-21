@@ -20,7 +20,7 @@ public class Zoo {
 		
 
 		public void specs() {
-			System.out.println( name + " is an animal that " + run + fly + " his fave food is " + eat + " and he sleeps " + sleep);
+			System.out.println( name + " is an animal that " + run + fly + " his fave food is " + eat + " and he sleeps at " + sleep);
 		}
 
 	
