@@ -19,9 +19,9 @@ public class Strings {
 	
 	System.out.println(str1.charAt(1)); // charAt();
 	
-	System.out.println(str3.indexOf("there")); // indexOf("there", 3); start searching for "there" starting from index 3
+	System.out.println(str3.indexOf("there")); // indexOf : "RETURNS" -1 IF NOT FOUND indexOf("there", 3); start searching for "there" starting from index 3
 	
-	System.out.println(str3.lastIndexOf("programmer")); // Starts from right to left
+	System.out.println(str3.lastIndexOf("programmer")); // Starts from right to left,
 
 	}
 
