@@ -8,9 +8,9 @@ public class Chicken extends Bird {
 	}
 	
 	
-	//Overriding fly() in Bird, because Chicken can't fly
-	public void fly() {
-		System.out.println("flying..."); // It been commented out because we can use INTERFACE instead.
-	}
+//	//Overriding fly() in Bird, because Chicken can't fly
+//	public void fly() {
+//		System.out.println("flying..."); // It's been commented out, because we used INTERFACE instead.
+//	}
 
 }

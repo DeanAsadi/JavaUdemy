@@ -12,15 +12,19 @@ public class Animal {
 		tiger.specs();
 		
 		//-------------------------------
-		Bird bird1 = new Bird( "Small bird " , "worms " , " night" );
+//		Bird bird1 = new Bird( "Small bird " , "worms " , " night" );
 		
-		bird1.fly();
+		
 		
 		//-------------------------------
 		Fish fish1 = new Fish( "Small fish ", " fish food ", "'nope' never sleeps" );
 		
 		fish1.fishy();
 		fish1.specs(); // Fish can also access methods in Zoo class, because it extends from it
+		
+		//-------------------------------
+		Flyable flyingSparrow = new Sparrow( "Tiny Sparrow bird", "worms", "night" );
+		flyingSparrow.fly();
 		
 
 	}

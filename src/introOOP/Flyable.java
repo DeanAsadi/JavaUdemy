@@ -2,8 +2,7 @@ package introOOP;
 
 public interface Flyable {
 	
-	public default void fly() {
+	public void fly();
 		
-	}
-
+	
 }
