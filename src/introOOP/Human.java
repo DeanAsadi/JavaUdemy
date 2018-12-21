@@ -50,3 +50,4 @@ public class Human {
 // Classes, contain instruction for "how should the object behave in the application"
 //constructor : Provides a way to construct objects
 //constructor : they alway's have the same name as your class they belong in.
+// constructor : WE CAN ASSIGN VALUES TO human object, inside constructor.

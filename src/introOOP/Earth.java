@@ -4,8 +4,8 @@ public class Earth {
 
 	public static void main(String[] args) {
 		
-		Human tom;
-		tom = new Human();
+		Human tom; // And we assign those objects to variables, and the object created when the application's run.
+		tom = new Human(); // We use Human class constructor, to create human objects.
 		
 		tom.name = "Tom";
 		tom.age = 32;
@@ -18,8 +18,7 @@ public class Earth {
 		
 		
 		
-		Human dean;
-		dean = new Human();
+		Human dean = new Human();
 		
 		dean.name2 = "Dean";
 		dean.age2 = 32;
