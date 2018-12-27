@@ -9,7 +9,11 @@ public class Dealership {
 		cust1.setAddress("1234 Royal Oak");
 		cust1.setCashOnHand(10000);
 		
-		cust1.purchaseCar(vehicale, employee, false);
+		Vehicle vehicle = new Vehicle();
+		Employee employee = new Employee();
+		
+		
+		cust1.purchaseCar(vehicle, employee, false);
 	}
 
 }
