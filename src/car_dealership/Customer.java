@@ -6,8 +6,33 @@ public class Customer {
 	private String address;
 	private double cashOnHand;
 
-	public void purchaseCar( Vehicle vehicale, Employee employee, boolean finance ) {
+	public void purchaseCar( Vehicle vehicle, Employee employee, boolean finance ) {
 			
+	}
+	
+// getters & setters 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public double getCashOnHand() {
+		return cashOnHand;
+	}
+
+	public void setCashOnHand(double cashOnHand) {
+		this.cashOnHand = cashOnHand;
 	}
 }
 
