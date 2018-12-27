@@ -9,12 +9,12 @@ public class Application {
 
 	public static void main(String[] args) {
 		
-		for ( int i = 0; i < 4; i++ ) { // We can also wrap it in a loop to excute it more then once
-			Scanner input = new Scanner (System.in); // To capture input
-			System.out.println("Enter some data: ");
-			String enteredText = input.nextLine(); // To take user input & store that input in a variable
-			System.out.println(enteredText); // Print out that variable
-		}
+//		for ( int i = 0; i < 4; i++ ) { // We can also wrap it in a loop to excute it more then once
+//			Scanner input = new Scanner (System.in); // To capture input
+//			System.out.println("Enter some data: ");
+//			String enteredText = input.nextLine(); // To take user input & store that input in a variable
+//			System.out.println(enteredText); // Print out that variable
+//		}
 	
 		try {
 			File file = new File("myFile.txt");
@@ -24,6 +24,7 @@ public class Application {
 				System.out.println(line);
 			}
 			input.close();
+			
 		} catch (FileNotFoundException e) { // We can make our own Exception methods
 			System.out.println("File was not found ");
 			
@@ -35,9 +36,7 @@ public class Application {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
-		
-		
+			
 
 	}
 

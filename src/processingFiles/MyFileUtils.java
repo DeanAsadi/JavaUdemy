@@ -1,5 +1,6 @@
 package processingFiles;
 
+// We created this file as Exception.
 public class MyFileUtils {
 	public int myFirstExceptionMethod( int number ) throws Exception {
 		
@@ -11,3 +12,11 @@ public class MyFileUtils {
 	}
 
 }
+
+
+// Section 10 / Lecture 28 [ Learn to to create your own Exception ] 
+
+
+
+
+
