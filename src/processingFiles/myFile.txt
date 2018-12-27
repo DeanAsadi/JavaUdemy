@@ -1,0 +1,4 @@
+This is just 
+a simple text file
+was created to be imported into 
+java to be read.
