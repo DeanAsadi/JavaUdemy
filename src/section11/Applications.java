@@ -31,6 +31,21 @@ public class Applications {
 			System.out.println(num);
 		}
 		
+		//We are creating our own datatype ---> Vehicle
+		LinkedList<Vehicle> vehicles  = new LinkedList<Vehicle>();
+		Vehicle vehicles1 = new Vehicle ( "Dodge", "Challenger", 12000, false );
+		
+		vehicles.add(vehicles1);
+		vehicles.add(new Vehicle ( "Dodge1", "Challenger1", 12001, false ));
+		vehicles.add( new Vehicle ( "Dodge2", "Challenger2", 12002, false ) );
+		vehicles.add( new Vehicle( "Dodge3", "Challenger3", 12003, false ) );
+		
+		for ( Vehicle car: vehicles ) {
+			System.out.println(car.getMake()); // getPrice | get fourWhealDrive | getModle
+			System.out.println(car);
+
+			
+		}
 		
 		
 	}
