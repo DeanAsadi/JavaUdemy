@@ -54,20 +54,24 @@ public class Applications {
 	values.add(4);
 	values.add(5);
 	values.add(6);
+	values.add(61);
+	values.add(6);
 	
 	for ( int value: values  ) {
 		System.out.println(value);
 	}
 	
-LinkedHashSet <Integer> values1 = new LinkedHashSet<Integer>(); // This collection type will print the values in order
-	
-	values1.add(41);
-	values1.add(51);
-	values1.add(61);
-	
-	for ( int value: values1  ) {
-		System.out.println(value);
-		}
+//LinkedHashSet <Integer> values1 = new LinkedHashSet<Integer>(); // This collection type will print the values in order without reapition
+//	
+//	values1.add(41);
+//	values1.add(51);
+//	values1.add(61);
+//	values1.add(61);
+//	values1.add(612);
+//	
+//	for ( int value: values1  ) {
+//		System.out.println(value);
+//		}
 		
 		
 	}
