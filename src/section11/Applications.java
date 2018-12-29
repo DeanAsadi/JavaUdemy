@@ -1,6 +1,8 @@
 package section11;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 
 public class Applications {
@@ -43,8 +45,28 @@ public class Applications {
 		for ( Vehicle car: vehicles ) {
 			System.out.println(car.getMake()); // getPrice | get fourWhealDrive | getModle
 			System.out.println(car);
-
-			
+		}
+		
+		
+		
+	HashSet <Integer> values = new HashSet<Integer>(); // This collection type will print values randomly
+	
+	values.add(4);
+	values.add(5);
+	values.add(6);
+	
+	for ( int value: values  ) {
+		System.out.println(value);
+	}
+	
+LinkedHashSet <Integer> values1 = new LinkedHashSet<Integer>(); // This collection type will print the values in order
+	
+	values1.add(41);
+	values1.add(51);
+	values1.add(61);
+	
+	for ( int value: values1  ) {
+		System.out.println(value);
 		}
 		
 		
