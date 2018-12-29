@@ -15,6 +15,10 @@ public class Applications {
 		
 		String item1 = words.get(2); // To get the second elelemnt in "words"
 		System.out.println(item1);
+		// To print the whole ArrayList using loop : 
+		for ( int i = 0; i < words.size(); i++ ) {
+			System.out.println( words.get(i) );
+		}
 		
 		
 		//Collection type LinkedList
