@@ -26,6 +26,10 @@ public class Applications2 {
 		//Remove all newList values from list1
 		list1.removeAll(newList);
 		System.out.println(list1);
+		
+		//Delete all values from list1
+		list1.clear();
+		System.out.println(list1);
 	}
 
 }
