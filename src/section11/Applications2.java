@@ -34,6 +34,10 @@ public class Applications2 {
 		//Find if the list contain() a specific value.
 		boolean findValue = list1.contains( 55);
 		System.out.println(findValue);
+		
+		//Find if the Array is Empty or not.
+		boolean isEmpty = list1.isEmpty();
+		System.out.println(isEmpty);
 	}
 
 }
