@@ -22,6 +22,10 @@ public class Applications2 {
 		
 		// Add all values from ArrayList to another
 		System.out.println(list1);
+		
+		//Remove all newList values from list1
+		list1.removeAll(newList);
+		System.out.println(list1);
 	}
 
 }
