@@ -1,6 +1,7 @@
 package section11;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Applications2 {
 
@@ -8,7 +9,7 @@ public class Applications2 {
 			
 		ArrayList<Integer> list1 = new ArrayList<Integer>();
 		
-		list1.add(10);
+		list1.add(1);
 		list1.add(15);
 		
 		
@@ -20,6 +21,10 @@ public class Applications2 {
 	
 		
 		list1.addAll(newList);
+		
+		// Sort Array
+		Collections.sort(list1);
+		System.out.println(list1);
 		
 		
 		
