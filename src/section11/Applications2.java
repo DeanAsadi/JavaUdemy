@@ -27,7 +27,6 @@ public class Applications2 {
 		System.out.println(list1);
 		
 		
-		
 		// Add all values from ArrayList to another
 		System.out.println(list1);
 		
@@ -51,8 +50,7 @@ public class Applications2 {
 		list1.retainAll(newList);
 		System.out.println( list1);
 		
-		
-		
+				
 		
 	}
 
