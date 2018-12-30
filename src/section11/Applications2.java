@@ -17,8 +17,11 @@ public class Applications2 {
 		newList.add(20);
 		newList.add(30);
 		
+	
 		
 		list1.addAll(newList);
+		
+		
 		
 		// Add all values from ArrayList to another
 		System.out.println(list1);
@@ -38,6 +41,14 @@ public class Applications2 {
 		//Find if the Array is Empty or not.
 		boolean isEmpty = list1.isEmpty();
 		System.out.println(isEmpty);
+		
+		// retain All 
+		list1.retainAll(newList);
+		System.out.println( list1);
+		
+		
+		
+		
 	}
 
 }
