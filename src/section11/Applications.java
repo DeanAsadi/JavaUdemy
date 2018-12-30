@@ -75,7 +75,24 @@ public class Applications {
 			for ( int value: values1  ) {
 				System.out.println(value);
 				}
-					
+			
+// __________________________________________________________HashSet/ Animals
+			
+			HashSet<Animals> animal = new HashSet<Animals>();
+			Animals animals1 = new Animals ( "Bear", 6 );
+			Animals animals2 = new Animals ("Lion", 10);
+			Animals animals3 = new Animals ("Lion", 10);
+			
+			animal.add(animals1);
+			animal.add(animals2);
+			animal.add(animals3);
+			
+			for (Animals val: animal) {
+				System.out.println(val);
+			}
+			
+			// After generating hashCode() in Animals class, now this will evaluate to true, without it will eval to false
+			System.out.println(animals2.hashCode() == animals3.hashCode());
 			}
 
 		}
