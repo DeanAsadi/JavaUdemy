@@ -13,6 +13,7 @@ public class Employee2 {
 		
 	}
 	
+	//Compare to @Override
 	public int compareTo(Employee2 o) {
 		
 		if( this.salary > o.salary ) {
