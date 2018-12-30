@@ -30,6 +30,10 @@ public class Applications2 {
 		//Delete all values from list1
 		list1.clear();
 		System.out.println(list1);
+		
+		//Find if the list contain() a specific value.
+		boolean findValue = list1.contains( 55);
+		System.out.println(findValue);
 	}
 
 }
