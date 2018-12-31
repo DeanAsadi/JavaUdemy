@@ -6,6 +6,19 @@ import java.util.Collections;
 public class Applications2 {
 
 	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		ArrayList<Employee2> employeeList = new ArrayList<Employee2>();
+		
+		employeeList.add( new Employee2( "Mike", 1000, "IT" ) );
+		employeeList.add( new Employee2( "Dean", 100000, "Software" ) );
+		employeeList.add( new Employee2( "Asadi", 250000, "Senior software namager" ) );
+		
 			
 		ArrayList<Integer> list1 = new ArrayList<Integer>();
 		
