@@ -26,7 +26,7 @@ public class Dictionary {
 			}
 			for ( Map.Entry<String, String> entry : dictionary.entrySet()) {
 				System.out.println( entry.getKey() );
-				
+				System.out.println( entry.getValue() );
 			}
 		
 	}
