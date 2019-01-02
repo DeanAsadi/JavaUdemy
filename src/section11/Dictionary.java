@@ -24,6 +24,10 @@ public class Dictionary {
 				System.out.println( entry.getKey() );
 				System.out.println( entry.getValue() );
 			}
+			for ( Map.Entry<String, String> entry : dictionary.entrySet()) {
+				System.out.println( entry.getKey() );
+				
+			}
 		
 	}
 
